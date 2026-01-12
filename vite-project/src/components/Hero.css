@@ -1,0 +1,83 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #04703d, #000);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;  Removed to allow full width flow */
+  justify-content: flex-start;
+  /* Changed from center to allow header at top */
+  padding-left: 0;
+  padding-top: 30px;
+  /* Space for top header */
+  transition: padding-left 0.4s ease;
+  /* Smooth transition for content shift */
+  box-sizing: border-box;
+}
+
+.hero-header {
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 60px;
+  color: white;
+  text-shadow: 0 0 25px #00ff88;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+
+.hero-header p {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  color: #00ff88;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.hero.sidebar-open {
+  padding-left: 260px;
+}
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  /* Start from the left padding edge */
+}
+
+.alien-slider {
+  display: flex;
+  gap: 50px;
+  cursor: grab;
+  /* margin-top: 100px; */
+}
+
+.alien-slider:active {
+  cursor: grabbing;
+}
+
+.alien-card {
+  min-width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alien-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.alien-card img:hover {
+  transform: scale(1.1);
+}

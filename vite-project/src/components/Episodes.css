@@ -1,0 +1,30 @@
+.episodes-section {
+    background: linear-gradient(to bottom, #0a110a, #000000);
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    border-top: 1px solid rgba(0, 255, 136, 0.1);
+}
+
+.episodes-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.episodes-section h2 {
+    font-size: 2.5rem;
+    color: #00ff88;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 0 0 15px rgba(0, 255, 136, 0.4);
+}
+
+.episodes-features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}

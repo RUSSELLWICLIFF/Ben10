@@ -1,0 +1,83 @@
+.about-section {
+    background: linear-gradient(to top, #000000, #0a110a);
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    border-top: 2px solid #00ff88;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    color: #00ff88;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 0 0 15px rgba(0, 255, 136, 0.4);
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #ccc;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-section strong {
+    color: #00ff88;
+}
+
+.about-features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background: rgba(0, 255, 136, 0.05);
+    border: 1px solid rgba(0, 255, 136, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 255, 136, 0.1);
+    background: rgba(0, 255, 136, 0.1);
+}
+
+.feature-card h3 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.feature-card p {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-bottom: 0;
+}
+
+.footer-note {
+    margin-top: 80px;
+    font-size: 0.8rem;
+    opacity: 0.5;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+}
