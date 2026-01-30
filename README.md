@@ -17,6 +17,7 @@ This project is focused on visuals and animations, not gameplay.
 
 ## 🛠️ Technologies Used
 
+- React
 - HTML
 - CSS
 - JavaScript
